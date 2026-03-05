@@ -33,6 +33,7 @@ mdc: true
 
 ---
 layout: center
+class: text-center
 ---
 
 # Why you should care about today's presentation
@@ -56,12 +57,14 @@ Luca Rossi - Refactoring (March 2026)
 
 ---
 layout: center
+class: text-center
 ---
 
 # Tiers of frontend development
 
 ---
 layout: center
+class: text-center
 ---
 
 # Tier 1: The Growing Monolith
@@ -97,6 +100,7 @@ Everyone wants more autonomy in order to ship faster and more frequently. It's t
 
 ---
 layout: center
+class: text-center
 ---
 
 # Tier 2: Polyrepositories (and Frontend Microservices)
@@ -173,6 +177,7 @@ However, updates are still painful and with more teams, redudant work is costly.
 
 ---
 layout: center
+class: text-center
 ---
 
 # Tier 3: Frontend Platform
@@ -213,6 +218,7 @@ by giving developers a golden path with an in-house, highly opinionated framewor
 
 ---
 layout: center
+class: text-center
 ---
 
 ## Still not convinced?
@@ -231,6 +237,10 @@ Here I am using technical debt as a proxy for productivity which we know is kind
 <div>The "traditional" approach</div>
 <img src="/images/tech-debt-investment-1.png" class="mx-auto mt-14 h-100" />
 
+<!--
+“In an isolated system, entropy will only increase”
+-->
+
 ---
 
 <div>With a Frontend Platform</div>
@@ -238,26 +248,146 @@ Here I am using technical debt as a proxy for productivity which we know is kind
 
 ---
 layout: center
+class: text-center
 ---
 
 # How to get there?
 
+---
+
+First, the good news: you don't have to create a dedicated Frontend Platform team to get started.
+
+<v-clicks>
+
+You can start small, with a virtual team.
+
+<br />
+
+What moves the needle:
+
+</v-clicks>
+
+<v-clicks>
+
+- **a continuous thread of investment** (fil rouge)
+- focusing on developer experience and how that relates with your shipping velocity
+- reserving a bit of capacity to continously work on platform topics
+- a product approach, gathering feedback and inputs from frontend engineers
+
+</v-clicks>
+
+<br />
+
+<v-clicks>
+
+Lots of the improvements you'll have to make will be specific to your setup and business but there are good stuff that applies everywhere.
+
+</v-clicks>
+
 <!--
-Le fil rouge (Continuous small investment to prevent decay) “In an isolated system, entropy will only increase”
-Engineers taking kind of the product role
-
-Part 3. Some good stuff you should ask
-
-It’s custom / based on your business but common things include..
-Design System (with tokens)
-End-to-End types
-Package manager
-Linting
-Formatting
-Observability
-AB testing / Feature Flags
-
-How to experiment with a small tool
-
-Monorepo tooling
+Frontend engineers will tell you that makes them slow,
 -->
+
+---
+layout: center
+class: text-center
+---
+
+# The Good Stuff every frontend engineer should be entitled to
+
+---
+
+## A Design System with tokens
+
+<img src="/images/zds-theming.webp" class="mx-auto mt-20 h-70" />
+
+---
+
+## An backend openAPI spec to automatically generate Types interfaces.
+
+<img src="/images/openapi-ts.png" class="mx-auto mt-20 h-50" />
+
+---
+
+## A Fast Feedback loop to catch static errors
+
+<br />
+
+A well configured ESLint or Oxlint with custom business rules.
+
+<div class="flex align-center items-center mt-20">
+    <img src="/images/eslint.svg" class="mx-auto h-20" />
+    <img src="/images/oxlint.webp" class="mx-auto h-45" />
+</div>
+
+<!--
+At Zalando for example we needed to enforce timezone in Inlt.DateTimeFormat to avoid hydration issues
+-->
+
+---
+
+## Preview Deployments
+
+---
+
+## Automated end-to-end tests
+
+---
+
+## A strict Continuous Integration
+
+---
+
+## Continuous Delivery
+
+---
+
+## Opinionated Golden Paths for non function requirements
+
+<br />
+
+It should be well documented and obvious how to:
+
+<v-clicks>
+
+### - Make new features observable
+
+### - Integrate analytics tracking
+
+### - Wrap a feature under a feature flag
+
+### - Set up an A/B test
+
+### - Fetch data from an API
+
+### - Ensure localization
+
+### - ...
+
+</v-clicks>
+
+<br />
+
+<v-clicks>
+
+## And the best part about this?
+
+<br />
+
+## It will also benefit your AI Coding Assistants
+
+</v-clicks>
+
+---
+
+## One of the biggest leverage: a well setup monorepo
+
+---
+
+
+---
+
+## Wrapping up
+
+---
+
