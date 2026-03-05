@@ -421,6 +421,8 @@ It should be well documented and obvious how to:
 </v-clicks>
 
 ---
+layout: center
+---
 
 ## Wrapping up
 
