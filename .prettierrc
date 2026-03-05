@@ -1,0 +1,11 @@
+{
+  "overrides": [
+    {
+      "files": ["slides.md", "slide-coding-assistants.md", "pages/*.md"],
+      "options": {
+        "parser": "slidev",
+        "plugins": ["prettier-plugin-slidev"]
+      }
+    }
+  ]
+}
