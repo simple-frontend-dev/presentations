@@ -326,19 +326,33 @@ At Zalando for example we needed to enforce timezone in Inlt.DateTimeFormat to a
 
 ---
 
-## Preview Deployments
+## Preview Deployments for branches
+
+Quick feedback loops for developers and stakeholders to preview branch changes before they are merged.
+
+<img src="/images/vercel-preview.png" class="mx-auto mt-25 h-40" />
 
 ---
 
-## Automated end-to-end tests
+## Automated end-to-end tests (with Playwright)
+
+<img src="/images/playwright.webp" class="mx-auto mt-5 h-100" />
 
 ---
 
 ## A strict Continuous Integration
 
+Checking for code quality regressions and preventing bad changes to be merged into your main branch
+
+<img src="/images/github-checks.png" class="mx-auto mt-20 h-60" />
+
 ---
 
 ## Continuous Delivery
+
+Safe Continuous Deployment to your production environment. Either every commit or a release train.
+
+<img src="/images/safe-deploy.webp" class="mx-auto mt-12 h-80" />
 
 ---
 
@@ -380,10 +394,15 @@ It should be well documented and obvious how to:
 
 ---
 
-## One of the biggest leverage: a well setup monorepo
+## One of the biggest levers: a well setup monorepo
 
----
+<br />
 
+### Start with workspaces (pnpm, npm or yarn)
+
+<br />
+
+### Scale with Nx or Turborepo
 
 ---
 
