@@ -404,6 +404,22 @@ It should be well documented and obvious how to:
 
 ### Scale with Nx or Turborepo
 
+<br />
+
+<v-clicks>
+
+### - You can centralize all your configurations (TypeScript, formatting, linting)
+
+### - You can easily share and update dependencies
+
+### - You can start new projects quickly through workspaces
+
+### - Every improvements benefit all your frontend developers
+
+### - You can still experiment but you have strong default patterns
+
+</v-clicks>
+
 ---
 
 ## Wrapping up
