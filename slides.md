@@ -26,7 +26,7 @@ mdc: true
         <img src="/images/storyblok-logo.png" class="mx-auto mt-30 h-10" />
     </template>
     <template #4>
-        <div class="mx-auto mt-12">I built Watchly, an incident management tool that knows everything about your production changes from deployments to feature flags changes.</div>
+        <div class="mx-auto mt-12">I build Watchly, an incident management tool that knows everything about your production changes from deployments to feature flags changes.</div>
         <img src="/images/watchly.png" class="mx-auto mt-14 h-60" />
     </template>
 </v-switch>
