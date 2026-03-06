@@ -56,6 +56,21 @@ layout: quote
 Luca Rossi - Refactoring (March 2026)
 
 ---
+layout: quote
+---
+
+### "Over the years, Stripe has invested in developer productivity foundation \[...\]. Minions \[Stripe Agents\] use the same developer tooling that equally enables Stripe’s human engineers to effectively operate on our scale: if it’s good for humans, it’s good for LLMs, too.."
+
+<br />
+<br />
+
+### "Whether it’s through improving documentation, developer environments, or iteration loops, we’ve found time and time again that our investments in human developer productivity over time have returned to pay dividends in the world of agents."
+
+<br />
+
+Alistair Gray - Stripe blog (February 2026)
+
+---
 layout: center
 class: text-center
 ---
@@ -424,7 +439,10 @@ It should be well documented and obvious how to:
 layout: center
 ---
 
-## Wrapping up
+# Wrapping Up
 
 ---
+layout: center
+---
 
+# Time for Questions
