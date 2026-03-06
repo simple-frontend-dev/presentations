@@ -215,7 +215,7 @@ Here they are also different possible implementations for a Frontend Platform Ar
 
 1. Platform as a runtime (Zalando, Wix). Think of it as "Vercel" for all your frontend changes. You have access to observability, A/B testing, opininated data fetching and state management and can focus on writing business logic for product features.
 
-2. Large monorepo with evergreen dependencies (Vercel). Colocation means it's easy to share, synchronize and updates patterns accross and products.
+2. Large monorepo with evergreen dependencies (Vercel). Colocation means it's easy to share, synchronize and updates patterns accross teams and products.
 
 </v-clicks>
 
@@ -320,7 +320,7 @@ class: text-center
 
 ---
 
-## An backend openAPI spec to automatically generate Types interfaces.
+## An backend OpenAPI spec to automatically generate Types interfaces.
 
 <img src="/images/openapi-ts.png" class="mx-auto mt-20 h-50" />
 
@@ -373,7 +373,7 @@ Safe Continuous Deployment to your production environment. Either every commit o
 
 ---
 
-## Opinionated Golden Paths for non function requirements
+## Opinionated Golden Paths for non functional requirements
 
 <br />
 
