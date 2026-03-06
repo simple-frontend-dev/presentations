@@ -4,6 +4,8 @@ colorSchema: light
 title: Frontend Engineering at Scale
 transition: slide-left
 mdc: true
+author: Jeremy Colin
+favicon: /images/favicon.svg
 ---
 
 # Frontend Engineering at scale
