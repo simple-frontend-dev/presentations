@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
+    "build:consulting-dl": "slidev build slides-consulting-dl.md",
     "dev": "slidev --open",
     "export": "slidev export"
   },
