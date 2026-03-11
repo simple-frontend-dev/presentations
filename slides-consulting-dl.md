@@ -214,9 +214,11 @@ class: text-center
   <br />
 - ### Facilitate cross team contributions and projects
   <br />
-- ### Remove duplicate infra and maintenance work
+- ### Remove duplicated infra and maintenance work
   <br />
 - ### Create a "level playing field": lower the barrier for contributions for smaller teams
+  <br />
+- ### Dynamic View Composition
 
 </v-clicks>
 
@@ -231,9 +233,9 @@ class: text-center
 
 - ### Deliver value early
   <br />
-- ### Wrap the previous system: Interface Framework was designed as a superset of Tailor. This allowed for Incremental Migration and Stranger Fig Pattern.
+- ### Wrap the previous system: Interface Framework was designed as a superset of Tailor. This allowed for Incremental Migration and Strangler Fig Pattern.
   <br />
-- ### Align migrations with the business: Only migrates premises when they is actually a need or large changes
+- ### Align migrations with business deliveries: only migrates premises when they is actually a need or large changes
   <br />
 - ### High level of alignments from the top
 
@@ -250,7 +252,7 @@ class: text-center
 
 - ### Keeping page performance on par with previously heavily optimized pages
   <br />
-- ### "Push Back" on "over-simplicity" and engineers buy-in
+- ### Push back on "over simplicity" and lack of expert engineers buy-in
   <br />
 - ### Inner source contribution model definition
   <br />
@@ -298,3 +300,84 @@ class: text-center
 
 ---
 
+## Communication challenges and what worked
+
+<br />
+<br />
+
+<v-clicks>
+
+- ### Frequent syncs, early feedback and validation
+  <br />
+- ### Short feedback loops were key
+  <br />
+- ### Finding the right level of abstraction: understand what to build versus what people want
+
+</v-clicks>
+
+---
+
+## What we initially did not get right
+
+<br />
+<br />
+
+<v-clicks>
+
+- ### The platform becoming a bottleneck (code reviews / gatekeeping / support)
+  <br />
+- ### Unclear or insufficient onboarding and documentation
+  <br />
+- ### Unclear ownership boundaries between the Platform team and the Features team
+  <br />
+- ### A bit of over-engineering
+
+</v-clicks>
+
+---
+
+## What worked well
+
+<br />
+<br />
+
+<v-clicks>
+
+- ### Building self-service capabilities
+  <br />
+- ### Providing horizontal capabilities: A/B testing, Observability, Configuration etc
+  <br />
+- ### CODEOWNERS file
+  <br />
+- ### Sharing Roadmaps and RFCs transparently
+  <br />
+- ### Collaboration with infra teams
+
+</v-clicks>
+
+---
+
+## Quotes from the Zalando Engineering Blog
+
+"We are still organized around feature teams which have frontend engineers embedded. The main difference is that now they are working in a monolithic repository providing a unified and automated environment that offers new joiners a quick onboarding"
+
+"There is quite a cultural shift as some ownership lines are now blurred in Renderers, with multiple teams contributing to most of them. As a result, we now have a much more collaborative development environment where teams benefit from their best practices. A centralized repository also means it is easier to ship large project changes and contribute to other teams' code, supported by a set of contribution guidelines."
+
+"We now have an aligned set of modern frontend technologies (React, TypeScript, GraphQL), a centralized server infrastructure, a release process, and a robust set of monitoring capabilities with dashboards and alerts. We are more efficient in terms of operations, and new reliability patterns immediately impact the whole website."
+
+---
+
+## Wrapping up
+
+<br />
+<br />
+
+<v-clicks>
+
+- ### It took years but it was well worth it
+  <br />
+- ### Biggest shift was the product mindset for the platform and inner contribution model
+  <br />
+- ### Impact was so big that now the Web Platform architecture is being transferred to the Mobile Apps.
+
+</v-clicks>
