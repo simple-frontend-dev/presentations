@@ -317,6 +317,25 @@ class: text-center
 
 ---
 
+## Building a platform: specific team needs versus generic abstractions
+
+<br />
+<br />
+
+<v-clicks>
+
+- ### A recurring challange: a team having very specific needs
+  <br />
+- ### Understand what they actually want to achieve
+  <br />
+- ### Help shift / transition (platform primitive mindset)
+  <br />
+- ### If well isoldated, it's ok to have one-off solutions
+
+</v-clicks>
+
+---
+
 ## What we initially did not get right
 
 <br />
